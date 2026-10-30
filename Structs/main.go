@@ -39,7 +39,6 @@ func NewProducto(nombre string, precio float64, stock int) Producto {
 }
 
 func calcularInventario(p Producto) float64 {
-	//multiplicar la cantidad por el precio para obtener el valor total del inventario
 	return p.precio * float64(p.stock)
 }
 
